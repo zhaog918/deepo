@@ -1,5 +1,5 @@
 name: deepo CI
-on: [push]
+on: [push,pull_request]
 jobs:
     
     chainer-py36-cu101_chainer-py36_chainer-cu101_chainer:
